@@ -179,7 +179,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__levelThree">
-        <span>© 2022 Altar.io all rights reserved.</span>
+        <span>Varanita all rights reserved © 2023 .</span>
         <div className="footer__socialIcons">
           <FaTwitter className="footer__socialIcon" />
           <FaFacebookF className="footer__socialIcon" />

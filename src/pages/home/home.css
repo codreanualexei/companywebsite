@@ -40,7 +40,7 @@
 }
 
 button {
-    background-color: #0044FF;
+    background-color: #25940ee1;
     padding: 15px 35x;
     margin: 0px 0px 10px;
     width: 160px;
@@ -147,7 +147,7 @@ button {
     background-color: #F7F9FD;
     border-radius: 100%;
     border: transparent;
-    color: #0044FF;
+    color: #25940ee1;
 }
 
 .home__reviewMessage {
@@ -164,7 +164,7 @@ button {
 }
 
 .home__reviewer {
-    color: #0044FF;
+    color: #25940ee1;
     font-size: 24px;
     font-family: Lato;
 }
@@ -271,7 +271,7 @@ align-items: center;
     padding: 6px 19x;
     width: 125px;
     height: 36px;
-    border: 2px solid #0044FF;
+    border: 2px solid #25940ee1;
     border-radius: 20px;
     margin-top: 20px;
     /* font-weight: 700; */
@@ -280,7 +280,7 @@ align-items: center;
     font-size: 12px;
     font-family: Lato;
     text-decoration: none;
-    color: #0044FF;
+    color: #25940ee1;
 }
 
 /* ======================================TEAM====================================================== */

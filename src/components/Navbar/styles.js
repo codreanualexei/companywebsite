@@ -5,7 +5,7 @@ position: fixed;
 top: 0;
 bottom: 0;
 right: 0;
-background: #0044FF;
+background: #25940ee1;
 display:flex;
 flex-direction:column;
 justify-content:space-between;

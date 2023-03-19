@@ -1,29 +1,30 @@
 // import DiamondOutlinedIcon from '@mui/icons-material/DiamondOutlined';
 // import AppleIcon from '@mui/icons-material/Apple';
 // import GroupsIcon from '@mui/icons-material/Groups';
-import { AiFillApple } from 'react-icons/ai'
+import { AiFillApple, AiOutlineAndroid } from 'react-icons/ai'
 import { FaRegHandshake } from 'react-icons/fa'
-import { SlDiamond } from 'react-icons/sl'
-import { HiOutlineUserGroup } from 'react-icons/hi'
+import { SlDiamond,SlGlobe } from 'react-icons/sl'
+import { HiOutlineUserGroup} from 'react-icons/hi';
 import { andre, claudio, daniel, logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo9,logo11,logo12,logo13,logo14,logo15,logo10,logo8,logo16, one, three, four, five, six, seven, eight, nine, twelve, thirteen, ten, eleven
  } from '../assets';
 // logo12,logo13,logo14,logo15,logo10,logo8,
  
 export const serviceOptions = [
     {
-        icon:<SlDiamond fontSize='50px' color='#0044FF'/>,title:'Product Scope',text:`A structured 7-day Process to align your vision with your business goals`
+        icon:<SlGlobe fontSize='50px' color='#25940ee1'/>,title:'Full Stack Web Applications',text:`A structured 7-day Process to align your vision with your business goals`
     },
     {
-        icon:<AiFillApple fontSize='50px' color='#0044FF'/>,title:'UI/UX',text:'Design an engaging product that is easy-to-use, attractive and functional'
+        icon:<AiFillApple fontSize='50px' color='#25940ee1'/>,title:'Full Stack IOS Mobile Applications',text:'Design an engaging product that is easy-to-use, attractive and functional'
     },
    
     {
-        icon:<FaRegHandshake fontSize='50px' color='#0044FF'/>,title:'MVP Builder',text:`Go to market quickly with a high-quality Minimum Viable Product`
+        icon:<AiOutlineAndroid fontSize='50px' color='#25940ee1'/>,title:'Full Stack Android Mobile Applications',text:`Go to market quickly with a high-quality Minimum Viable Product`
     },
     {
-        icon:<HiOutlineUserGroup fontSize='50px' color='#0044FF'/>,title:'Dedicated Teams',text:`Build your product with a dedicated team of developers`
+        icon:<HiOutlineUserGroup fontSize='50px' color='#25940ee1'/>,title:'Dedicated Teams',text:`Build your product with a dedicated team of developers`
     },
 ]
+
 
 export const team = [
     {

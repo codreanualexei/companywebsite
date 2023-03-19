@@ -78,7 +78,7 @@ const Home = () => {
         </div>
         <Slide bottom>
           <div className="home__reviewMessage">
-            <FaQuoteLeft color="#0044FF" className="home__reviewQuote" />
+            <FaQuoteLeft color="#25940ee1" className="home__reviewQuote" />
             <p className="home__reviewText">
               We are very happy to work with Altar.io. The collaboration goes
               far beyond a standard IT service: with Altar.io we have a sparring
@@ -110,7 +110,6 @@ const Home = () => {
           </Slide>
         </div>
         <div className="home__casesBody">
-            {/* <ImageComponent /> */}
             <img src="https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="home__caseStudyImg" />
           <div className="home__casesBodyRight">
             <h6 className="home__caseTitle">
@@ -149,7 +148,6 @@ const Home = () => {
             <Link to="/case-study">SEE CASES STUDY</Link>
           </button>
         </div>
-          {/* <ImageComponent /> */}
           <img src="https://images.pexels.com/photos/2603464/pexels-photo-2603464.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" className="home__caseStudyImg" />
       </div>
       </div>
@@ -191,7 +189,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-     <OpenSource/>
+     {/* <OpenSource/> */}
       <div className="home__services">
         <Slide bottom>
           <div className="home__servicesHeader">
