@@ -2,8 +2,7 @@
 // import AppleIcon from '@mui/icons-material/Apple';
 // import GroupsIcon from '@mui/icons-material/Groups';
 import { AiFillApple, AiOutlineAndroid } from 'react-icons/ai'
-import { FaRegHandshake } from 'react-icons/fa'
-import { SlDiamond,SlGlobe } from 'react-icons/sl'
+import {SlGlobe } from 'react-icons/sl'
 import { HiOutlineUserGroup} from 'react-icons/hi';
 import { andre, claudio, daniel, logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo9,logo11,logo12,logo13,logo14,logo15,logo10,logo8,logo16, one, three, four, five, six, seven, eight, nine, twelve, thirteen, ten, eleven
  } from '../assets';
