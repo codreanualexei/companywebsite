@@ -5,9 +5,16 @@ import { review } from "../../assets";
 import { Slide } from "react-reveal";
 import { AiFillPlayCircle } from "react-icons/ai";
 
-
+const initialState = {
+  description:'',
+  budgetSize:'',
+  name:'',
+  email:'',
+  howYouKnow:''
+}
 const Contact = () => {
   const [playing, setPlaying] = useState(false);
+  const [formData, setFormData] = useState(initialState)
   const videoRef = useRef(null);
 
   const onVideoPress = () => {
@@ -19,6 +26,11 @@ const Contact = () => {
       setPlaying(true);
     }
   };
+
+  const onFormDataChange = (e) => {
+    const value = e.target;
+    setFormData({...formData, [e.target.name]:value})
+  }
   return (
     <div className="contact">
       <Slide bottom>
@@ -61,22 +73,28 @@ const Contact = () => {
         <div className="contact__right">
           <form>
             <textarea
-              name=""
-              id=""
+            onChange={onFormDataChange}
+              name="description"
+              value={formData.budgetSize}
               placeholder="Project Description"
             ></textarea>
-            <select name="" id="">
-              <option value="" selected>
+            {/* <select name="budgetSize" onChange={onFormDataChange}>
+              <option  selected>
                 Budget Size
               </option>
-              <option value=""> - 50k</option>
-              <option value="">50k {`>`} 150k</option>
-              <option value="">150k {`>`} 500k</option>
-              <option value=""> + 500k</option>
-            </select>
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="How did you hear about us?" />
+              <option value={formData.budgetSize}> - 50k</option>
+              <option value={formData.budgetSize}>50k {`>`} 150k</option>
+              <option value={formData.budgetSize}>150k {`>`} 500k</option>
+              <option value={formData.budgetSize}> + 500k</option>
+            </select> */}
+            <input type="text" name="budgetSize"
+              value={formData.budgetSize} placeholder="Budget Size" />
+            <input type="text" name="name"
+              value={formData.name} placeholder="Name" />
+            <input type="email" name="email"
+              value={formData.email} placeholder="Email" />
+            <input type="text" name="howYouKnow"
+              value={formData.howYouKnow} placeholder="How did you hear about us?" />
             <button type="submit" className="contact__btn">
               BOOK A CALL
             </button>
