@@ -1,0 +1,60 @@
+/* .home__casesImage{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -300px;
+    margin-left: -100px;
+    margin-right: 100px;
+}
+.home__casesImage1{
+   left: 0;
+    z-index: 1; 
+}
+.home__casesImage2{
+    position: absolute;
+    left: -50px;
+  top: 0px;
+    z-index: 3;
+}
+.home__casesImage3{
+    position: absolute;
+    left: 50px;
+    top: -50px;
+    z-index: 2
+}
+.home__casesImage4{
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    z-index: 4
+}
+
+@media (max-width: 500px) {
+    
+.home__cases
+    .home__casesBody{
+        flex-direction: column-reverse; 
+    }
+    .home__casesImage{
+        margin-top: 10px;
+        margin-bottom: 100px;
+        
+
+    } */
+    /* .home__casesImage1,
+.home__casesImage2,
+.home__casesImage3,
+.home__casesImage4{
+    width: 100px;
+} */
+/* } */
+/* @media (max-width: 768px) {
+    .home__cases
+    .home__casesBody{
+        flex-direction: column-reverse; 
+    }
+    .home__casesImage{
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+} */

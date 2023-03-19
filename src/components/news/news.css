@@ -1,0 +1,60 @@
+/* ===================================NEWS=========================================== */
+.news__ {
+    width: 100%;
+    padding: 1rem 5rem;
+    background-color: #F7F9FD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.news__Header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.news__HeaderTitle {
+    font-size: 46px;
+    color: #21212B;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 0px;
+    width: 340px;
+}
+
+.news__HeaderText {
+    /* margin: 0px 0px 8px;
+    font-size: 28px;
+    color: #0A0A0Aa6; */
+    color: #444;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 36px;
+    height: 100%;
+}
+.news__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.news__btn {
+    width: 160px;
+    height: 36px;
+    background-color: #F7F9FD;
+    border: 1px solid #21212B;
+    margin-top:30px;
+    padding: 6px 14px;
+  }
+  .news__btn a{
+    color: #333333;
+    font-size: 12px;
+    font-family: Lato;
+  }

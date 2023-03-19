@@ -1,0 +1,585 @@
+.home {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.home__hero {}
+
+.home__heroVideo {
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    overflow-x: hidden;
+    padding-bottom: 4rem;
+}
+
+.home__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 100px;
+}
+
+.home__header>h1 {
+    font-size: 47px;
+    font-family: Lato;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.home__headerButton>a {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+button {
+    background-color: #0044FF;
+    padding: 15px 35x;
+    margin: 0px 0px 10px;
+    width: 160px;
+    height: 50px;
+    font-size: 14px;
+    font-family: Lato;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+
+
+/* =============================================SERVICES====================================================================*/
+.home__services {
+    padding-top: 5rem;
+    background-color: #F7F9FD;
+    padding-bottom: 4rem;
+
+}
+
+.home__servicesHeader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.home__servicesHeaderTitle {
+    font-size: 66px;
+    color: #21212B;
+    font-weight: 500;
+}
+
+.home__servicesHeaderText {
+    /* margin: 0px 0px 8px;
+    font-size: 28px;
+    color: #0A0A0Aa6; */
+    color: #444;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 36px;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.home__serviceOptions {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ==========================================REVIEW================================================================= */
+.home__review {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 20px 45px;
+
+}
+
+.home__reviewVideo {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 8px 10px 4px lightgray;
+    padding: 0;
+
+}
+
+.home__reviewVideo>video {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0;
+
+
+}
+
+.home__reviewVideo>video:hover {
+    transition: transform 0.30s ease-in-out;
+    transform: scale(1.010) !important;
+
+}
+
+.home__reviewVideoIcon {
+    position: relative;
+    left: 280px;
+    bottom: 250px;
+    font-size: 55px;
+    width: 55px;
+    height: 55px;
+    background-color: #F7F9FD;
+    border-radius: 100%;
+    border: transparent;
+    color: #0044FF;
+}
+
+.home__reviewMessage {
+    width: 413px;
+    height: 724px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-size: 28px;
+    font-family: Lato;
+    margin-left: 20px;
+
+}
+
+.home__reviewer {
+    color: #0044FF;
+    font-size: 24px;
+    font-family: Lato;
+}
+
+.home__reviewClient {
+    width: 161px;
+    height: 40px;
+}
+
+
+/* =====================================HOME CASE STUDIES==================================== */
+.home__cases{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.home__casesHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home__casesTitle{
+    color: #21212B;
+    font-size: 49px;
+    font-family: Lato;
+    margin: 0px 0px 8px;
+}
+.home__caseTitle strong{
+    color: #21212B;
+    font-size: 18px;
+    font-family: Lato;
+}
+.home__caseSubTitle strong{
+    color: #21212B;
+    font-size: 28px;
+    font-family: Lato;
+}
+.home__casesText{
+    color: #444;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 36px;
+    width: 50%;
+    height: 100%;
+}
+.home__casesBody{
+    padding: 20px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__casesBodyRight{
+    padding: 0 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 3rem;
+    width: 600px;
+    height: 350px;
+    align-self: flex-end;
+}
+.home__casesBodyRight h3 h6{
+    padding: 0 30px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 3rem;
+    width: 600px;
+    height: 350px;
+    align-self: flex-end;
+}
+.home__caseStudyImg{
+    width: 400px;
+    border-radius: 10px;
+}
+.home__casesBodyRight ,h6 ,h3{
+    margin-bottom: 20px;
+}
+.home__casesBodyRight > h6{
+    color: #21212B;
+    font-size: 18px;
+    font-family: Lato;
+}
+.home__casesBodyRight > h3{
+    color: #21212B;
+    font-size: 30px;
+    font-family: Lato;
+}
+.home__casesBodyRightText{
+    color: #8C8C8C;
+    font-size: 16px;
+    font-family: Lato;
+}
+.home__casesBodyRightBtn{
+    background-color: #F7F9FD;
+    margin: 0px 0px 10px;
+
+    padding: 6px 19x;
+    width: 125px;
+    height: 36px;
+    border: 2px solid #0044FF;
+    border-radius: 20px;
+    margin-top: 20px;
+    /* font-weight: 700; */
+}
+.home__casesBodyRightBtn > a{
+    font-size: 12px;
+    font-family: Lato;
+    text-decoration: none;
+    color: #0044FF;
+}
+
+/* ======================================TEAM====================================================== */
+.home__team{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+    padding: 10px;
+}
+.home__teamMember{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+margin: 0px 25px;
+}
+.home__teamMemberImg{
+width: 400px;
+height: 328px;
+object-fit: cover;
+}
+.home__teamMemberDetails{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: flex-start;
+border: 1px solid lightgray;
+border: 2px solid #fff;
+box-shadow: 0 8px 10px -2px lightgray;
+width: 400px;
+height: 328px;
+padding: 20px;
+border-top: none;
+
+}
+.home__teamMemberTitle{
+font-size: 24px;
+font-family: Lato;
+color: #21212B;
+}
+.home__teamMemberText{
+    font-size: 16px;
+    font-family: Lato;
+    color: #8C8C8C;
+    margin-bottom: 1rem;
+}
+.home__teamMemberBtn{
+
+/* height: 36px; */
+/* margin: 0px 24px 24px; */
+padding: 6px ;
+background-color: #FFFFFF;
+border: 2px solid #333333;
+}
+.home__teamMemberBtn > a{
+color: #333333;
+font-size: 12px;
+font-family: Lato;
+text-transform: uppercase;
+}
+
+/* ==================================AWARDS============================================================= */
+.home__awards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+.home__awards:last-child{
+    align-self: flex-start;
+}
+.home__award{
+width: 180px;
+height: 212px;
+object-fit: contain;
+margin: 20px;
+
+cursor: pointer;
+}
+
+
+
+/* =====================================CLIENTS==================================================== */
+
+
+/* ============================MEDIA QUERIES=================================================================== */
+
+
+@media (max-width: 568px) {
+    .home {
+        overflow-x: hidden;
+    }
+
+    .home__header {
+        margin: 20px 50px;
+    }
+
+    .serviceOptions {
+        flex-direction: column;
+    }
+   .home__review{
+    width: 100%;
+    height: 100%;
+    padding: 20px 15px;
+   }
+    .home__servicesHeaderText {
+    width: 100%;
+    }
+    .home__reviewMessage {
+        font-size: 18px;
+        padding: 0 30px;
+        text-align: center;
+    }
+    .home__reviewText{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .home__reviewer{
+       font-size: 18px;
+    }
+    .home__reviewClient{
+        height: 20px;
+        margin-top: 10px;
+    }
+    .home__casesText{
+        width: 100%;
+    }
+    .home__casesTitle{
+        width: 100%;
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .home__casesHeader{
+        font-size: 28px;
+        text-align: center;
+        
+    }
+    
+    .home__casesBody{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px;
+    }
+  
+    .home__casesBodyRight{
+        height: 100%;
+        margin: 10px 0px;
+        padding: 10px;
+         width: 100%;
+    }
+    .home__caseStudyImg{
+        margin: 10px;
+        width: 200px;
+
+    }
+    .home__team{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .home__teamMember{
+        margin: 15px 10px;
+        }
+        .home__teamMemberImg{
+        width: 258px;
+        height: 208px;
+        object-fit: cover;
+        }
+        .home__teamMemberDetails{
+            width: 258px;
+            height: 328px;
+        }
+}
+
+@media (max-width: 768px) {
+    .home__hero {
+        width: 100%;
+        height: 100%;
+    }
+
+    .home__heroVideo {
+        margin: 0;
+
+    }
+
+    .serviceOptions {
+        flex-direction: column;
+    }
+
+    .home__services {
+        padding-top: 1rem;
+        background-color: #F7F9FD;
+        padding: 1rem;
+
+    }
+
+    .home__servicesHeaderTitle {
+        font-size: 43px;
+    }
+    .home__servicesHeaderText {
+        width: 100%;
+        }
+    .home__reviewMessage {
+        width: 100%;
+        word-wrap: break-word;
+        text-align: left;
+        padding: 0 30px;
+        text-align: center;
+
+    }
+   
+    .home__review{
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px;
+       }
+    .home__reviewText{
+            width: 100%;
+            margin-top: 10px;
+        }
+        .home__reviewer{
+           font-size: 18px;
+        }
+        .home__reviewClient{
+            height: 20px;
+            margin-top: 10px;
+        }
+    .home__servicesHeaderText {
+        font-size: 20px;
+        padding: 0 25px;
+        text-align: center;
+    }
+
+    .home__review {
+        flex-direction: column;
+    }
+
+    .home__reviewVideo {
+        width: 319px;
+        height: 214px;
+    }
+
+    .home__reviewMessage {
+        padding: 10px;
+    }
+
+    .home__reviewText {
+        font-size: 25px;
+    }
+
+    .home__reviewer {
+        align-self: flex-start;
+        text-align: left;
+    }
+
+    .home__reviewVideoIcon {
+        position: relative;
+        left: 140px;
+        bottom: 150px;
+        font-size: 35px;
+    }
+    .home__cases
+    .home__casesBody{
+        flex-direction: column; 
+    }
+    .home__casesText{
+        width: 100%;
+    }
+    .home__casesBodyRight{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+    .home__team{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .home__teamMember{
+        margin-top:30px;
+        margin-left: 10px;
+    }
+}
+/* @media (max-width: 900px) {
+    .home__review{
+        width: 100%;
+        height: 100%;
+        padding: 20px 15px;
+       }
+    .home__reviewText{
+            width: 100%;
+            margin-top: 10px;
+         
+        }
+       
+        .home__reviewMessage{
+           width: 100%;
+        }
+       
+} */
