@@ -164,10 +164,9 @@ option{
 .contact__btn {
 margin-top: 20px;
 align-self: flex-start;
+color: #F7F9FD;
 }
-.contact__btn a{
-    color: #F7F9FD;
-}
+
 
 /* ============================MEDIA QUERIES=================================================================== */
 

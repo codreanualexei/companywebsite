@@ -40,13 +40,13 @@ const Footer = () => {
                   Rua Adriano Correia de <br />  Oliveira 4A, 1600-312
                   <br />
                   <strong>
-                    Phone: <a href="tel: +351 963630105">+351 963630105</a>
+                    Phone: <a href="tel: +37378198544">+37378198544</a>
                   </strong>
                   <br />
                 </span>
                 <span>
                   <strong>
-                    Email: <a href="mailto: lisbon@altar.io">lisbon@altar.io</a>
+                    Email: <a href="mailto: lisbon@altar.io">varanitainformatics@gmail.com</a>
                   </strong>
                 </span>
               </p>
@@ -118,8 +118,8 @@ const Footer = () => {
             <Link to="/about" className="footer__link">
               About Us
             </Link>
-            <Link to="/blog" className="footer__link">
-              Blog
+            <Link to="/contact" className="footer__link">
+             Contact Us
             </Link>
             <Link to="/newsletter" className="footer__link">
               Newsletter

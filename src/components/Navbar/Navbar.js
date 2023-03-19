@@ -18,10 +18,10 @@ const Navbar = () => {
   window.onscroll = function () {
     // pageYOffset or scrollY
     if (window.pageYOffset > 100) {
-      navbar.classList.add("scrolled");
+      navbar?.classList?.add("scrolled");
 //       navbarLink.classList.add("scrolled");
     } else {
-      navbar.classList.remove("scrolled");
+      navbar?.classList?.remove("scrolled");
 //       navbarLink.classList.remove("scrolled");
     }
   };
@@ -61,7 +61,7 @@ const Navbar = () => {
           />
         </div>
         <div className="navbar__link">
-          <Link to="/blog">Blog</Link>
+          <Link to="/contact">Contact Us</Link>
         </div>
         <div className="navbar__linkBooking">
           <button>
@@ -110,7 +110,7 @@ const Navbar = () => {
             />
           </div>
           <div className="navbar__linkSmall">
-            <Link to="/blog">Blog</Link>
+            <Link to="/contact">Contact Us</Link>
           </div>
           <div className="navbar__linkBookingSmall">
             <button>
