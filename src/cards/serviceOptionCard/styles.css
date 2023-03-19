@@ -43,10 +43,29 @@ border-radius: 5px;
 /* ============================MEDIA QUERIES=================================================================== */
 
 
+@media (max-width: 568px) {
+    .serviceOption{
+        width: 100%;
+height: 284px;
+        }
+        .serviceOption__title{
+            font-size: 20px;
+            color: #21212B;
+            width: 100%;
+            margin: 10px 0px;
+        }
+    
+  }
 @media (max-width: 768px) {
     .serviceOption{
-        width: 318px;
-height: 274px;
+        width: 100%;
+height: 284px;
+        }
+        .serviceOption__title{
+            font-size: 20px;
+            color: #21212B;
+            width: 100%;
+            margin: 10px 0px;
         }
     
   }
