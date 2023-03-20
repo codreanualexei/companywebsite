@@ -26,6 +26,8 @@ const About = () => {
                 color="#25940ee1"
                 className="about__reviewQuoteRight"
               />
+              <br />
+              <span className="about__quoteAuthor">Steve McConnel</span>
             </h1>
           </div>
         </Slide>

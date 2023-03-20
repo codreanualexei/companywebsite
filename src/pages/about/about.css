@@ -52,6 +52,13 @@
     float: right;
 }
 
+.about__quoteAuthor{
+    color: #25940ee1;
+    font-size: 31px;
+    font-family: Lato;
+    font-weight: 700;
+    line-height: 39px;
+}
 /* .about__us{
    margin-top: 15rem;
     background-color: #F7F9FD;
