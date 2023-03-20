@@ -6,7 +6,9 @@ import {SlGlobe } from 'react-icons/sl'
 import { HiOutlineUserGroup} from 'react-icons/hi';
 import { andre, claudio, daniel, logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo9,logo11,logo12,logo13,logo14,logo15,logo10,logo8,logo16, one, three, four, five, six, seven, eight, nine, twelve, thirteen, ten, eleven
  } from '../assets';
-// logo12,logo13,logo14,logo15,logo10,logo8,
+ import { FaAssistiveListeningSystems } from "react-icons/fa";
+ import { MdOutlineSecurityUpdateGood } from "react-icons/md";
+ import { GiDiamondHard } from "react-icons/gi";
  
 export const serviceOptions = [
     {
@@ -21,6 +23,18 @@ export const serviceOptions = [
     },
     {
         icon:<HiOutlineUserGroup fontSize='50px' color='#25940ee1'/>,title:'Dedicated Teams',text:`Build your product with a dedicated team of developers`
+    },
+]
+export const aboutUsGoals = [
+    {
+        icon:<GiDiamondHard fontSize='50px' color='#25940ee1'/>,text:'We are a team of hardworking, innovative IT consultants who combine our strengths together so that we can offer you the best services.'
+    },
+    {
+        icon:<FaAssistiveListeningSystems fontSize='50px' color='#25940ee1'/>,text:'We genuinely listen to your needs and objectives,and create unique strategies to achieve your vision.'
+    },
+   
+    {
+        icon:<MdOutlineSecurityUpdateGood fontSize='50px' color='#25940ee1'/>,text:'We pride ourselves in our excellence and inventiveness.'
     },
 ]
 

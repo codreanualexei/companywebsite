@@ -14,7 +14,6 @@ export {default as thirteen } from './images/thirteen.png';
 export { default as london } from './images/london.png';
 export { default as lisbon } from './images/lisbon.png';
 export { default as milan } from './images/milan.png';
-export{  default as hero } from './videos/hero.mp4';
 export{default as logo } from './images/logo.svg';
 export {default as  andre} from './images/andre.png';
 export {default as  daniel} from './images/daniel.png';
@@ -36,11 +35,17 @@ export {default as logo13 } from './images/logo13.png';
  export {default as logo14 } from './images/logo14.png';
  export {default as logo15 } from './images/logo15.png';
 export {default as logo16 } from './images/logo16.svg';
-export {default as review } from './videos/review.mp4'
 export { default as reviewLogo } from './images/review.svg';
 export { default as cases } from './images/cases.webp';
 export { default as loopBack } from './images/strongloop.jpg'
 export { default as angulartics } from './images/angular.jpg'
 export { default as builder } from './images/builder.jpg'
 export { default as starter } from './images/starter.jpg'
-export { default as footerLogo } from './images/footerLogo.svg'
+export { default as footerLogo } from './images/footerLogo.svg';
+export { default as team } from './images/team.jpeg';
+
+
+/**============================================================VIDEOS===================================================*/
+export {default as review } from './videos/review.mp4'
+export{  default as hero } from './videos/hero.mp4';
+export{  default as hero2 } from './videos/hero2.mp4';
