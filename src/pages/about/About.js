@@ -3,7 +3,6 @@ import "./about.css";
 // import { Link } from "react-router-dom";
 import { Slide } from "react-reveal";
 import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import { hero2,team } from "../../assets";
 import { aboutUsGoals } from "../../staticData/staticData";
 
 const About = () => {
