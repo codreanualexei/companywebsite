@@ -9,32 +9,32 @@ import { andre, claudio, daniel, logo1,logo2,logo3,logo4,logo5,logo6,logo7,logo9
  import { FaAssistiveListeningSystems } from "react-icons/fa";
  import { MdOutlineSecurityUpdateGood } from "react-icons/md";
  import { GiDiamondHard } from "react-icons/gi";
- 
+
 export const serviceOptions = [
     {
-        icon:<SlGlobe fontSize='50px' color='#25940ee1'/>,title:'Full Stack Web Applications',text:`A structured 7-day Process to align your vision with your business goals`
+        icon:<SlGlobe fontSize='50px' color='#25940ee1'/>,link:'/mobile-web-apps', title:'Full Stack Web Applications',text:`A structured 7-day Process to align your vision with your business goals`
     },
     {
-        icon:<AiFillApple fontSize='50px' color='#25940ee1'/>,title:'Full Stack IOS Mobile Applications',text:'Design an engaging product that is easy-to-use, attractive and functional'
+        icon:<AiFillApple fontSize='50px' color='#25940ee1'/>,link:'/mobile-ios-apps', title:'Full Stack IOS Mobile Applications',text:'Design an engaging product that is easy-to-use, attractive and functional'
     },
    
     {
-        icon:<AiOutlineAndroid fontSize='50px' color='#25940ee1'/>,title:'Full Stack Android Mobile Applications',text:`Go to market quickly with a high-quality Minimum Viable Product`
+        icon:<AiOutlineAndroid fontSize='50px' color='#25940ee1'/>,link:'/mobile-android-apps', title:'Full Stack Android Mobile Applications',text:`Go to market quickly with a high-quality Minimum Viable Product`
     },
     {
-        icon:<HiOutlineUserGroup fontSize='50px' color='#25940ee1'/>,title:'Dedicated Teams',text:`Build your product with a dedicated team of developers`
+        icon:<HiOutlineUserGroup fontSize='50px' color='#25940ee1'/>,link:'teams', title:'Dedicated Teams',text:`Build your product with a dedicated team of developers`
     },
 ]
 export const aboutUsGoals = [
     {
-        icon:<GiDiamondHard fontSize='50px' color='#25940ee1'/>,text:'We are a team of hardworking, innovative IT consultants who combine our strengths together so that we can offer you the best services.'
+        icon:<GiDiamondHard fontSize='50px' color='#25940ee1'/>,title:'Hard Work', text:'We are a team of hardworking, innovative IT consultants who combine our strengths together so that we can offer you the best services.'
     },
     {
-        icon:<FaAssistiveListeningSystems fontSize='50px' color='#25940ee1'/>,text:'We genuinely listen to your needs and objectives,and create unique strategies to achieve your vision.'
+        icon:<FaAssistiveListeningSystems fontSize='50px' color='#25940ee1'/>,title:'Attention to Details', text:'We genuinely listen to your needs and objectives,and create unique strategies to achieve your vision.'
     },
    
     {
-        icon:<MdOutlineSecurityUpdateGood fontSize='50px' color='#25940ee1'/>,text:'We pride ourselves in our excellence and inventiveness.'
+        icon:<MdOutlineSecurityUpdateGood fontSize='50px' color='#25940ee1'/>,title:'Excellence', text:'We pride ourselves in our excellence and inventiveness.'
     },
 ]
 

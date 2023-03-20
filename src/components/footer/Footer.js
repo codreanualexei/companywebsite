@@ -115,7 +115,7 @@ const Footer = () => {
             <Link to="/work" className="footer__link">
               Work
             </Link>
-            <Link to="/about" className="footer__link">
+            <Link to="/about-us" className="footer__link">
               About Us
             </Link>
             <Link to="/contact" className="footer__link">
@@ -152,14 +152,14 @@ const Footer = () => {
         <div className="footer__levelTwoLinksBox">
           <h4 className="footer__linksGroup">SERVICES</h4>
           <div className="footer__links">
-            <Link to="/product-scope" className="footer__link">
-              Product Scope
+            <Link to="/mobile-web-apps" className="footer__link">
+              Full Stack Web Applications
             </Link>
-            <Link to="/ux-ui" className="footer__link">
-              UX/UI
+            <Link to="/ios-mobile-apps" className="footer__link">
+             Full Stack IOS Mobile applications
             </Link>
-            <Link to="/mvp-builder" className="footer__link">
-              MVP Builder
+            <Link to="/android-mobile-apps" className="footer__link">
+            Full Stack Android Mobile applications
             </Link>
             <Link to="/teams" className="footer__link">
               Dedicated Teams

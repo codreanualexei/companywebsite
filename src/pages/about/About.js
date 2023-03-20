@@ -38,16 +38,19 @@ const About = () => {
             global perspective an capabilities to each client.
             <br />
             <br />
-            After many years of successful freelancing in mobile technology hundreds of satisfied clients,we decided to join together our specialties of knowledge and experience.From this, we created our international IT company, and are now servicing customers across the globe 
+            After many years of successful freelancing in mobile technology hundreds of satisfied clients,we decided to join together our specialties of knowledge and experience.From this, we created our international IT company, and are now servicing customers across the globe.
+            <br />
+            As a result of our tremendous passion for mobile technology,our company was organized and launched in the beginning of 2021.
           </p>
         </div>
         <div className="about__usGoalBox">
           <h3 className="about__usTitle">How We Are Different From Our competitors</h3>
          <div className="about__usGoals">
-         {aboutUsGoals?.map(({ icon, text }, index) => (
+         {aboutUsGoals?.map(({ icon,title, text }, index) => (
             <Slide bottom key={index}>
               <div className="about__usGoal">
                 <span className="about__usGoalIcon">{icon}</span>
+                <p className="about__usGoalTitle">{title}</p>
                 <p className="about__usGoalText">{text}</p>
               </div>
             </Slide>

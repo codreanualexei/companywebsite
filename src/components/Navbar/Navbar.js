@@ -17,7 +17,7 @@ const Navbar = () => {
 
   window.onscroll = function () {
     // pageYOffset or scrollY
-    if (window.pageYOffset > 100) {
+    if (window.pageYOffset > 10) {
       navbar?.classList?.add("scrolled");
 //       navbarLink.classList.add("scrolled");
     } else {
