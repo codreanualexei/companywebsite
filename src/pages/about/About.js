@@ -40,7 +40,8 @@ const About = () => {
             global perspective an capabilities to each client.
             <br />
             <br />
-            After many years of successful freelancing in mobile technology hundreds of satisfied clients,we decided to join together our specialties of knowledge and experience.From this, we created our international IT company, and are now servicing customers across the globe.
+            After many years of successful freelancing in mobile technology hundreds of satisfied clients,we decided to join together our specialties of knowledge and experience.
+            From this, we created our international IT company, and are now servicing customers across the globe.
             <br />
             As a result of our tremendous passion for mobile technology,our company was organized and launched in the beginning of 2021.
           </p>

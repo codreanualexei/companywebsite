@@ -28,8 +28,20 @@ const Contact = () => {
   };
 
   const onFormDataChange = (e) => {
-    const value = e.target;
+    const value = e.target.value;
     setFormData({...formData, [e.target.name]:value})
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(formData)
+    setFormData({
+      description:'',
+      budgetSize:'',
+      name:'',
+      email:'',
+      howYouKnow:''
+    })
   }
   return (
     <div className="contact">
@@ -71,30 +83,21 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact__right">
-          <form>
+          <form onSubmit={handleSubmit}>
             <textarea
             onChange={onFormDataChange}
               name="description"
-              value={formData.budgetSize}
+              value={formData.description}
               placeholder="Project Description"
             ></textarea>
-            {/* <select name="budgetSize" onChange={onFormDataChange}>
-              <option  selected>
-                Budget Size
-              </option>
-              <option value={formData.budgetSize}> - 50k</option>
-              <option value={formData.budgetSize}>50k {`>`} 150k</option>
-              <option value={formData.budgetSize}>150k {`>`} 500k</option>
-              <option value={formData.budgetSize}> + 500k</option>
-            </select> */}
             <input type="text" name="budgetSize"
-              value={formData.budgetSize} placeholder="Budget Size" />
+              value={formData.budgetSize} placeholder="Budget Size"  onChange={onFormDataChange}/>
             <input type="text" name="name"
-              value={formData.name} placeholder="Name" />
+              value={formData.name} placeholder="Name" onChange={onFormDataChange} />
             <input type="email" name="email"
-              value={formData.email} placeholder="Email" />
+              value={formData.email} placeholder="Email"  onChange={onFormDataChange}/>
             <input type="text" name="howYouKnow"
-              value={formData.howYouKnow} placeholder="How did you hear about us?" />
+              value={formData.howYouKnow} placeholder="How did you hear about us?"  onChange={onFormDataChange}/>
             <button type="submit" className="contact__btn">
               BOOK A CALL
             </button>
